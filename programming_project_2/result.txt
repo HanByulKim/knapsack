@@ -1,1 +1,27 @@
-The Detail execution process is on Console
+2017-2 Algorithms Programming Project 2, #21 Han-Byul Kim
+The Detail execution process is on Console.
+
+1. Dynamic Programming(result table)
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 60 60 60 60 60 60 60 60 
+0 0 0 0 0 40 60 60 60 60 60 100 100 100 
+0 0 0 0 48 48 60 60 60 88 108 108 108 108 
+0 0 0 12 48 48 60 60 60 88 108 108 108 120 
+0 0 30 30 48 48 78 78 90 90 108 118 138 138 
+-- result --
+totalProfit : 138
+totalWeight : 12
+
+2. Backtracking
+Contained(1) or not(0)
+1 | 2 | 3 | 4 | 5 | 
+1 | 1 | 1 | 0 | 0 | 
+
+3. Branch & Bound
+
+----------------------------------
+result : 
+level : 5
+totalProfit : 138
+totalWeight : 12
+bound : 138
